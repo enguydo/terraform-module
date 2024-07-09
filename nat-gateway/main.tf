@@ -94,4 +94,8 @@ resource "aws_route_table_association" "private_app_subnet_az2_rt_az2_associatio
 resource "aws_route_table_association" "private_data_subnet_az2_rt_az2_association" {
   subnet_id      = var.private_data_subnet_az2_id
   route_table_id = aws_route_table.private_route_table_az2.id
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 457d7bb36d350af7180d565e1751e8d4a978db82
